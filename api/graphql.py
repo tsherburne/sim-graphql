@@ -1,7 +1,6 @@
 from ariadne import ObjectType, make_executable_schema, gql
 from ariadne.asgi import GraphQL
 import json, os, uuid, requests, threading, time, copy
-import relDictionary
 
 # load schema
 schemaPath =  r"https://raw.githubusercontent.com/" \
