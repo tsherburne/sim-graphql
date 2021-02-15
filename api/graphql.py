@@ -12,7 +12,7 @@ type_defs = gql(schemaString)
 # load system model
 modelPath = r"https://raw.githubusercontent.com/" \
             r"coordinated-systems-lab/cube-sat/" \
-            r"main/graphql/earth-observation.json"
+            r"main/graphql/fire-sensing.json"
 systemModel = json.loads(requests.get(modelPath).text)
 
 # create storage for status response
